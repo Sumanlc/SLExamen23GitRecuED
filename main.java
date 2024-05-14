@@ -10,6 +10,14 @@ public class ProcesamientoTexto {
         scanner.close();
     }
 
+    public static String convertirAMinusculas(String texto) {
+        return texto.toLowerCase();
+    }
+
+    public static String invertirTexto(String texto) {
+        return new StringBuilder(texto).reverse().toString();
+    }
+
     public static String convertirAMayusculas(String texto) {
         return texto.toUpperCase();
     }
