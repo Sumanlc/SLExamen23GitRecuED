@@ -18,5 +18,12 @@ public class ProcesamientoTexto {
         return new StringBuilder(texto).reverse().toString();
     }
 
+    public static String convertirAMayusculas(String texto) {
+        return texto.toUpperCase();
+    }
+
+    public static String recortarEspacios(String texto) {
+        return texto.trim();
+    }
 
 }
