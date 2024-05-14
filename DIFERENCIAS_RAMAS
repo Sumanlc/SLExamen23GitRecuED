@@ -1,0 +1,29 @@
+diff --git a/NoSubir.txt b/NoSubir.txt
+new file mode 100644
+index 0000000..aa35068
+--- /dev/null
++++ b/NoSubir.txt
+@@ -0,0 +1 @@
++Este archivo debe estar en la carpeta pero no subido a git
+diff --git a/main.java b/main.java
+index 4ee4d24..df3a48c 100644
+--- a/main.java
++++ b/main.java
+@@ -10,12 +10,13 @@ public class ProcesamientoTexto {
+         scanner.close();
+     }
+ 
+-    public static String convertirAMayusculas(String texto) {
+-        return texto.toUpperCase();
++    public static String convertirAMinusculas(String texto) {
++        return texto.toLowerCase();
+     }
+ 
+-    public static String recortarEspacios(String texto) {
+-        return texto.trim();
++    public static String invertirTexto(String texto) {
++        return new StringBuilder(texto).reverse().toString();
+     }
+ 
++
+ }
